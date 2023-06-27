@@ -1,0 +1,42 @@
+.skills__container{
+    display: flex;
+}
+
+
+.skills__titulo{
+    position: absolute;  
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.skills__list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.skills__img{
+    width: 200px;
+}
+
+.skills__skills{
+    justify-content: space-between;
+}
+
+@media screen and (max-width:480px){
+    .skills__list{
+        flex-wrap: wrap;
+        margin-left: 1.5rem;
+        align-items: center;
+    }
+}
+

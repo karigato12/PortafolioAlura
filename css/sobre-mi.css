@@ -1,0 +1,29 @@
+.sobre__mi {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 194, 246);
+    font-family: 'Dosis', sans-serif;
+}
+
+.sobre__mi-titulo{
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sobre__mi-info{
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    text-align: justify;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+}
+
+#informacion{
+    margin-bottom: 3rem;
+}

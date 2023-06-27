@@ -1,0 +1,39 @@
+.hobbies__container{
+    background-color: rgb(238, 194, 246);
+}
+
+.hobbies__titulo{
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.hobbies__list{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:480px){
+    .hobbies__list{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .hobbies__list{
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 1rem;
+    }
+}

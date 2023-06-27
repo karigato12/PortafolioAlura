@@ -1,0 +1,51 @@
+.formacion{
+    font-family: 'Dosis', sans-serif;
+}
+
+.formacion__titulo{
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.formacion__escuelas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formacion__imagen{
+    width: 250px;
+}
+
+.formacion__lista__titulo{
+    margin-left: 4rem;
+}
+
+.formacion__lista__anho{
+    margin-left: 4rem;
+}
+
+@media screen and (max-width:480px){
+    .formacion__escuelas{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px){
+    .formacion__escuelas{
+        flex-wrap: wrap;
+    }
+    
+    .formacion__imagen{
+        height: 50%;
+    }
+
+    
+}   
+
+
+
+

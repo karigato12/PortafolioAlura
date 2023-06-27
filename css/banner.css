@@ -1,0 +1,132 @@
+.banner{
+    position: flex;
+    background-color: rgb(238, 194, 246);
+}
+
+.banner_img{
+    position: flex;
+    background: cover;
+    width: 100%;
+    height:calc(100vh - 150px);
+}
+
+.banner__titulo{
+    font-family: 'Dosis', sans-serif;
+    position: absolute;
+    font-size: 3.5rem;
+    left: 35%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 30%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.banner__resena{
+    font-family: 'Dosis', sans-serif;
+    position: absolute;
+    font-size: 2rem;
+    left: 35%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 55%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    width: 60%; 
+}
+
+.banner__persona{
+    background-image: url(../../Portafolio/img/Kari_profile.png);
+    background-position: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 20rem;
+    height: 25rem;
+    top: 20%;
+    left: 70%;
+}
+
+.banner__links{
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    position: absolute;
+    font-size: 1.25rem;
+    left: 10%;
+    top: 70%;
+}
+
+.banner__links__lista{
+    display: flex; 
+}
+
+
+
+.banner__links-ref1{
+    text-decoration: none;
+    padding: 5rem;
+}
+
+@media only screen and (max-width:480px){
+   
+    .banner{
+        flex-direction: column;
+    }
+    
+    .banner__persona{
+        width: 5rem;
+    }
+
+    .banner__titulo{
+        width: auto;
+        font-size: 1.5rem;
+    }
+
+    .banner__resena{
+        width: auto;
+        font-size: 1.5rem;
+
+    }
+
+    .banner__links{
+        width: 1rem;
+        padding: .5rem;
+        font-size: .5rem;
+    }
+}
+
+@media only screen and (max-width:768px){
+   
+    .banner__persona{
+        width: 10rem;
+        position: absolute;
+        top: 0;
+        left: 10%;
+    }
+
+    .banner__titulo{
+        width: auto;
+        font-size: 2rem;
+        text-align: center;
+        top: 50%;
+    }
+
+    .banner__resena{
+        width: auto;
+        text-align: center;
+        font-size: 1rem;
+        top: 65%;
+    }
+
+    .banner__links{
+        width: 1rem;
+        padding: .5rem;
+        font-size: .5rem;
+        text-align: center;
+        top: 70%;
+    }
+}
+
+
+
+
+

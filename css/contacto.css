@@ -1,0 +1,100 @@
+.contacto{
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+}
+
+.contacto__imagen{
+    margin-left: 1.5rem;
+    margin-top: 7.5rem;
+    margin-right: 2.5rem;
+}
+
+.contacto__titulo{
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contacto__parrafo{
+    font-size: 1.25rem;
+    margin-left: 2.5rem;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 2.5rem;
+}
+
+.contacto__input{
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 2rem;
+    width: 456px;
+    height: 56px;
+}
+
+.contacto__textarea{
+    font-family: 'Dosis', sans-serif;
+    width: 456px;
+    height: 106px;
+    margin-bottom: 2rem;
+}
+
+.contacto__boton{
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 2rem;
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(115, 24, 119);
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.contacto__boton:hover{
+    background: rgb(61, 11, 63);
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:480px){
+    .contacto__imagen{
+        display: none;
+    }
+
+    .contacto__input{
+        width: 90%;
+        height: 56px;
+    }
+
+    .contacto__textarea{
+        width: 90%;
+        height: 56px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .contacto__imagen{
+        display: none;
+    }
+
+    .contacto__input{
+        width: 90%;
+        height: 56px;
+    }
+
+    .contacto__textarea{
+        width: 90%;
+        height: 56px;
+    }
+
+}

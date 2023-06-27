@@ -1,0 +1,43 @@
+.headerPrincipal {
+    background-color: rgb(238, 194, 246);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+.header__nav-list{
+    display: flex;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__nav-link{
+    display: flex;
+    margin-right: 2.5rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width:480px) {
+    .headerPrincipal {
+        padding: 1rem;
+        justify-content: space-around;
+    }
+    .header__nav-link{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .headerPrincipal {
+        padding: 1rem;
+        justify-content: space-around;
+    }
+    .header__nav-link{
+        display: none;
+    }
+}
+
